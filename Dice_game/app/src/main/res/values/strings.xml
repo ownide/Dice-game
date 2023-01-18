@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="btn">d1(d2</string>
+	
+	<string name="btn2">d1>d2</string>
+    <string name="app_name">rendompicker</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<string name="facebook_app_id">553141629333367</string>
+	<string name="fb_login_protocol_scheme">fb553141629333367</string>
+	<string name="title">By login an continue you accept and agree to our</string>
+	<string name="messageWithLink">
+		<a href="https://www.google.com/">privacy policy</a>
+	</string>
+	<string name="link">
+		<a href="https://github.com/"/>
+		privacy policy
+		<a/>
+	</string>
+	<string name="txtCredits">
+		<a href="http://www.google.com">Google</a>
+	</string>
+	
+	<string name="admob_app_id">
+        ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitial_id">
+        ca-app-pub-3940256099942544/1033173712</string>
+		
+	<string name="reward_id">ca-app-pub-3940256099942544/5224354917</string>
+	
+</resources>
