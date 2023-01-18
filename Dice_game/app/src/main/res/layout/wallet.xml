@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/background" 
+    android:orientation="vertical">
+	
+	
+	
+	<ImageView 
+		android:layout_alignParentStart="true"
+		android:background="@drawable/arrows"
+		android:id="@+id/arrow" 
+		android:layout_width="37dp" 
+		android:layout_height="37dp"
+		android:layout_marginStart="24dp"
+		android:layout_marginTop="15dp" 
+		android:visibility="visible" />
+	
+	<ImageView 
+		android:layout_alignParentEnd="true"
+		android:background="@drawable/his"
+		android:id="@+id/history" 
+		android:layout_width="28dp" 
+		android:layout_height="28dp"
+		android:layout_marginEnd="24dp"
+		android:layout_marginTop="18dp" 
+		android:visibility="visible" />
+	
+	
+	
+	<EditText 
+		android:paddingHorizontal="5dp"
+
+		android:layout_centerInParent="true"
+		android:visibility="visible" 
+		android:id="@+id/with_edit" 
+		android:layout_width="250dp" 
+		android:layout_height="35dp" 
+		android:layout_marginTop="5dp"
+		android:background="@drawable/refer_edittext_shape_stroke" 
+		android:ems="10" 
+
+		android:gravity="center"
+		android:hint="Coinbase email" 
+		android:inputType="textAutoComplete" 
+		
+		android:textColorHint="#9E9D8A"
+
+	/>
+    <TextView 
+		
+
+		android:layout_centerInParent="true"
+		
+		
+		android:layout_above="@+id/with_edit"
+		android:id="@+id/alredy_enter_texView" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+
+		android:gravity="center" 
+		android:text="Enter your coinbase email" 
+		android:textColor="@color/white" 
+		android:textSize="15sp" 
+
+	/>
+
+	<Button 
+		android:background="#DCDCDC"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/with_edit"
+		android:layout_marginTop="15dp"
+		android:textColor="#000000" 
+		android:visibility="visible" 
+		android:id="@+id/with_button" 
+		android:layout_width="wrap_content"
+		android:layout_height="33dp"
+
+
+		android:text="withdraw" />
+	
+	
+	
+
+
+</RelativeLayout>
