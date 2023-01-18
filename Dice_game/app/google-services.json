@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76985874488",
+    "project_id": "redom-dd5a5",
+    "storage_bucket": "redom-dd5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76985874488:android:d585f8de0430e26f42cecd",
+        "android_client_info": {
+          "package_name": "com.tenbit.random"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76985874488-tt6lu3umuvn7u8dujireo06p5up5gcvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tenbit.random",
+            "certificate_hash": "61ed377e85d386a8dfee6b864bd85b0bfaa5af81"
+          }
+        },
+        {
+          "client_id": "76985874488-1vomdja53kb6e888fpbdhjgj7khakbia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLub4WIWCpk7a3k9fw-poJ0HE9NN8cx_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76985874488-1vomdja53kb6e888fpbdhjgj7khakbia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
