@@ -1,1 +1,1 @@
-# crypto-maker-dice-game
+# dice game with crypto payment system
