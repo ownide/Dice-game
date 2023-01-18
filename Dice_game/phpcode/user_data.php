@@ -1,8 +1,8 @@
 <?php
 $server="localhost"; 
-$username="xbitxyz_1"; 
-$password="Android2819";
-$database="xbitxyz_1";   
+$username="your_db_username"; 
+$password="your_db_password";
+$database="db_name"; 
 $conn = new mysqli($server, $username, $password, $database);
 
 
