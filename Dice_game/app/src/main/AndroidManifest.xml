@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tenbit.random" >
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+		android:resizeableActivity = "true">
+        <activity
+            android:name=".F_S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+			android:name=".MainActivity"
+		/>
+		<activity
+			android:name=".WalletActivity"
+		/>
+		<activity
+			android:name=".ReferActivity"
+		/>
+	
+		<activity
+			android:name=".login"
+		/>
+		<activity
+            android:name=".DebugActivity"
+            android:screenOrientation="portrait"/>
+			
+		<meta-data
+
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+
+			android:value="ca-app-pub-3940256099942544~3347511713" />
+			
+    </application>
+
+</manifest>
